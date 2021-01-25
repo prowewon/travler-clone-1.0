@@ -1,0 +1,17 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import "variables.css";
+
+/* components */
+@import "components/screen-header.css";
+@import "components/screen-footer.css";
+/* screens */
+@import "screens/login.css";
+@import "screens/main.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e363e;
+  padding-top: 75px;
+  height: 1000vh;
+}

@@ -5,6 +5,7 @@
 /* components */
 @import "components/screen-header.css";
 @import "components/screen-footer.css";
+@import "components/course__box.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/main.css";
@@ -12,6 +13,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e363e;
-  padding-top: 75px;
+  padding-top: 150px;
   height: 1000vh;
 }

@@ -1,5 +1,60 @@
-main-screen {
-  position: relative;
+.main-screen {
+  width: 100%;
+}
+
+.main__join {
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.main__join h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.main__join h1:nth-child(2) {
+  color: var(--blue);
+  margin-bottom: 35px;
+}
+
+.main__join h4 {
+  font-size: 20px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.main__join a {
+  width: 180px;
+  height: 50px;
+  color: white;
+  background-color: var(--blue);
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 16px;
+  font-size: 20px;
+  border-radius: 7px;
+  margin-top: 35px;
+}
+
+.main__join a:hover {
+  opacity: 0.8;
+}
+
+.main__courses {
+  margin-top: 130px;
+}
+
+.main__courses__link {
+  width: 100%;
+  text-align: center;
+}
+
+.main__courses__link a {
+  color: var(--blue);
+  font-size: 20px;
+}
+
+.main__courses__link a:hover {
+  border-bottom: 2px solid var(--blue);
 }

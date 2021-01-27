@@ -18,7 +18,7 @@
   margin-bottom: 35px;
 }
 
-.main__join h4 {
+.main__subheading {
   font-size: 20px;
   opacity: 0.7;
   margin-bottom: 10px;
@@ -57,4 +57,18 @@
 
 .main__courses__link a:hover {
   border-bottom: 2px solid var(--blue);
+}
+
+.main__challenges {
+  padding: 100px 0;
+  margin: 140px 0 60px 0;
+  text-align: center;
+  background-color: rgb(220, 220, 220, 0.1);
+}
+
+.main__challenges__title {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 13px;
 }

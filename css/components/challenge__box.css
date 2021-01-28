@@ -1,8 +1,12 @@
+.challenges-main {
+  padding: 0 150px;
+}
+
 .challenges__carrier {
   display: flex;
+  box-sizing: border-box;
   margin: 80px 0 65px 0;
-  justify-content: space-between;
-  padding: 0 150px;
+  justify-content: flex-start;
 }
 
 .challenge__box {
@@ -14,6 +18,7 @@
   border-radius: 8px;
   padding: 30px 20px 20px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .challenge__title {
@@ -100,4 +105,8 @@
 
 .challeges__more:hover {
   opacity: 0.7;
+}
+
+.challenge__box--hidden {
+  visibility: hidden;
 }

@@ -1,5 +1,6 @@
 .main-screen {
-  width: 100%;
+  padding: 0 150px;
+  box-sizing: border-box;
 }
 
 .main__join {
@@ -63,7 +64,6 @@
   padding: 100px 0;
   margin: 140px 0 60px 0;
   text-align: center;
-  background-color: rgb(220, 220, 220, 0.1);
 }
 
 .main__challenges__title {

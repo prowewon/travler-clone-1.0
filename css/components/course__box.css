@@ -1,7 +1,6 @@
 .courses__carrier {
   display: flex;
   justify-content: space-between;
-  padding: 0 150px;
   margin-bottom: 230px;
 }
 

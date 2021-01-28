@@ -7,10 +7,12 @@
 @import "components/screen-footer.css";
 @import "components/course__box.css";
 @import "components/challenge__box.css";
+@import "components/screen__main-header.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/main.css";
+@import "screens/challenges.css";
 
 body {
   font-family: "Roboto", sans-serif;

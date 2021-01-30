@@ -8,6 +8,7 @@
 @import "components/course__box.css";
 @import "components/challenge__box.css";
 @import "components/screen__main-header.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";

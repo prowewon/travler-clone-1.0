@@ -1,5 +1,4 @@
 .main-screen {
-  padding: 0 150px;
   box-sizing: border-box;
 }
 
@@ -46,23 +45,29 @@
   margin-top: 130px;
 }
 
-.main__courses__link {
-  width: 100%;
+.main__courses__link,
+.main__challenges__link {
   text-align: center;
 }
 
-.main__courses__link a {
+.main__courses__link a,
+.main__challenges__link a {
   color: var(--blue);
   font-size: 20px;
 }
 
-.main__courses__link a:hover {
+.main__courses__link a:hover,
+.main__challenges__link a:hover {
   border-bottom: 2px solid var(--blue);
 }
 
+.main__challenges__link {
+  margin-top: -100px;
+}
+
 .main__challenges {
-  padding: 100px 0;
-  margin: 140px 0 60px 0;
+  padding: 100px 150px 0;
+  margin: 140px 0 340px 0;
   text-align: center;
 }
 
